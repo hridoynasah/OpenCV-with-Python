@@ -1,7 +1,7 @@
-import cv2 as cv
+import cv2 as cv 
 
-img = cv.imread('large_cat.jpg')
+# reading image
+# This method basically takes in a path to An image and returns that image as a matrix of pixels.
 
-cv.imshow('Cat', img)
-cv.waitKey(0)
+cv.imread('') 
 
