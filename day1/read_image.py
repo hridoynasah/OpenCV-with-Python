@@ -3,7 +3,7 @@ import numpy as np
 
 # read image 
 # returns the image as a matrix of pixels(numpy.ndarray)
-img = cv.imread('cat_small.jpg')
+img = cv.imread('photos/cat_small.jpg')
 
 # print(type(img))  # output: <class 'numpy.ndarray'>
 # print(img.shape, img.ndim) # output: (183, 275, 3) 3
