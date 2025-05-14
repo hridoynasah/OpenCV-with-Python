@@ -1,7 +1,13 @@
 import cv2 as cv 
+import numpy as np
 
-# reading image
-# This method basically takes in a path to An image and returns that image as a matrix of pixels.
+# read image 
+# returns the image as a matrix of pixels(numpy.ndarray)
+img = cv.imread('cat_small.jpg')
 
-cv.imread('') 
+# print(type(img))  # output: <class 'numpy.ndarray'>
+# print(img.shape, img.ndim) # output: (183, 275, 3) 3
 
+cv.imshow('Black Cat', img)
+
+cv.waitKey(0) 
