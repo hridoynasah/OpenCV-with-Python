@@ -164,7 +164,8 @@ This tutorial explains how to read and display images and videos using OpenCV, a
      capture.release()
      cv.destroyAllWindows()
      ```
-
+      - `capture.release()`: Frees the video capture object (e.g., webcam or video file), closing the camera or file and releasing system resources.
+      - `cv.destroyAllWindows()`: Closes all OpenCV windows created by `cv.imshow()`, cleaning up the display.
 5. **Error Handling**:
    - A `-215 Assertion Failed` error occurs if the video file path is incorrect or no more frames are available.
 
