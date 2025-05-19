@@ -11,3 +11,8 @@ DIR = r'D:\WorkSpace\Machine Learning\OpenCV-with-Python\10_Face_Detection_and_R
 
 features = []
 labels = []
+
+def create_train():
+    for person in people:
+        path = os.path.join(DIR, person)
+        
